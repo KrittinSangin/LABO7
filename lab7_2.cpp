@@ -42,10 +42,10 @@ int main()
     cout << Name <<": ";
     string Date;
     getline(cin,Date);
-    cout << "Fahsai: "<<Date<<"....that is OK!!! I'm looking forward to watching\n"<<Movie<<" with you.\n";
+    cout << "Fahsai: "<<Date<<"....that is OK!!! I'm looking forward to watching "<<Movie<<" with you.\n";
     cout << Name <<": ";
     string randomassline;
     getline(cin,randomassline);
-    cout << "Fahsai: 555+ see you " << Date <<". Bye Bye \(^ ^)/";
-
+    char fix = 92;
+    cout << "Fahsai: 555+ see you " << Date <<". Bye Bye " << fix << "(^ ^)/";
 }
